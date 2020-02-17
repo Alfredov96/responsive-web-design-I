@@ -60,106 +60,340 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-nav{
+* {
+	max-width: 100%;
+}
+.wrap{
+	margin: 0 10vw;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+/*{
+	max-width: 100%;
+}*/
+header nav{
 	display:flex;
 	justify-content: space-evenly;
-	align-items: center;
-	width: 30%;
+	width: 100%;
 }
-.firstpic{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+.logo{
+	width:20%;
+	margin-top: 2%;
 }
-.innovation{
-    border: 3px solid purple;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 400%;
-    margin-left: 20%;
+
+header .navigation{
+	display:flex;
+	justify-content: space-evenly;
+	width:60%;
+	margin-top: 3%;
 }
-.innovation .button{
-    border: 3px solid black;
-    
-font-size: 50px;
+a{
+	text-decoration: none;
+	color: grey;
 }
-.innovation .head-pic{
-    display: block;
-    margin-right: 10%;
+.picture{
+	width: 40%;
+}
+
+.top{
+	text-align: center;
+	font-size: 80px;
+	margin-top: 10%;
+}
+.ondemand{
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.top button{
+  font-size: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.first-pic{
+	display: inline-block;
+text-align: right; 
+}
+.middle-img{
+	margin-left: 10%;
+}
+.top-section{
+	border-top: 2px solid black;
+	padding-top: 5%;
+	margin: 5%;
+	font-size: 20px;
+	columns: 100px 2;
+}
+.feat{
+	font-size: 25px;
+	font-style: bold;
+  margin: 3%;
+  font-weight: bold;
+
+}
+.about{
+	font-size: 25px;
+	font-style: bold;
+  margin: 5% 3% 3% 3%;
+  font-weight: bold;
+
+}
+
+
+.bottom-section{
+	
+	margin: 5%;
+	font-size: 20px;
+	columns: 100px 3;
+}
+.services{
+	font-size: 25px;
+	font-weight: bold;
+}
+.product{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 3%;
+}
+.vision{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 3%;
+}
+.contact{
+	margin-left: 5%;
+	font-size: 20px;
+	columns: 100px 1;
+	
+}
+.con{
+	border-top: solid black;
+	font-weight: bold;
+	padding-top: 3%;
+}
+
+.one{
+	
+	margin:0 1;
+	text-align: left;
+}
+.two{
+	
+	text-align: right;
+
+}
+
+footer{
+	margin-top: 10%;
+	text-align: center;
+}
+.number{
+  margin: 3% 0;
+}
+
+/* start of section CSS*/
+.mainpic{
+	margin: 5% 10% 5% 10%;
+}
+.services{
+	font-size: 30px;
+	font-style: bold;
 }
 .border{
 	border-bottom: 2px solid black;
-	margin: 10px 2px;
-	font-size: 18px;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	font-size: 20px;
 }
-
-.box-one{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
-}
-.box-two{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
+.learn{
+		border-radius: 4px;
+		padding: 2% 5%;
+        background-color:white;
+        color:black;
+		border:1px solid black;
+		margin-top: 3%;
 }
 .section-one{
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 5%;
 }
-.box-three{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
+.box-one{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
 }
-.box-four{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
+.box-two{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
+
 }
 .section-two{
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 5%;
 }
-.box-five{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
-}
+.box-three{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
 
-.box-six{
-	background-color: lightgrey;
-  width: 280px;
-  border: 3px solid grey;
-  padding: 20px;
-  margin: 20px;
+}
+.box-four{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
+
 }
 .section-three{
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 5%;
 }
-.pictwo{
-	display: block;
-	margin-left: auto;
-	
+.box-five{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
+
 }
-.pone{
-	border-top: 3px solid black;
+.box-six{
+	background-color: rgb(219, 210, 210);
+	border:2px solid black;
+	width: 40%;
+	padding: 3%;
+
+}
+.last-container{
+	display: flex;
+	flex-direction: row-reverse;
+	border-top: 2px solid black;
+	padding-top: 5%;
+}
+.child{
+	margin-left: 10%;
+}
+.ptwo{
+	margin-bottom: 3%;
+	width: 40%;
 }
 .list{
 	list-style-type: square;
 }
+.copy{
+	margin: 10% 0;
+	text-align: center;
+}
+@media(max-width:800px){
+  *{
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .wrap{
+    margin: 5vw;
+  }
+  header{
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  nav{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width:49%;
+  }
+  .navigation{
+    max-width: 100%;
+  }
+  header a{
+    margin:3% 10% 0 10%;
+  }
+  .logo{
+    width:41%;
+  }
+  .first-pic{
+    display: none;
+  }
+  .middle-img{
+    margin-left: -1%;
+  }
+  .one{
+    text-align: left;
+  }
+  .feat{
+    text-align: left;
+    font-weight: bold;
+  }
+  .about{
+    text-align: left;
+    font-weight: bold;
 
+  }
+  .two{
+    text-align: left;
+  }
+  .services{
+    margin-bottom: 4%;
+  }
+  .con{
+    margin-bottom: 4%;
+  }
+}
+@media(max-width:500px){
+  *{
+    max-width: 100%;
+  }
+  .wrap{
+    margin: 3vw;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: column;  
+    margin-right: 74%;
+
+  }
+  a{
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid grey;
+    padding: 3px 95%;
+  }
+  .top-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .feat{
+    font-weight: bold;
+  }
+  .about{
+    font-weight: bold;
+  }
+  .bottom-section{
+    display: flex;
+    flex-direction: column;
+    margin: 7% 0;
+  }
+  .four{
+    margin:5% 0;
+  }
+  .contact{
+    text-align: left;
+    margin-left: -3%;
+  }
+}
